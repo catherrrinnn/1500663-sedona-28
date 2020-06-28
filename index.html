@@ -101,6 +101,31 @@
         <img src="img/Заинтересовались_  Укажите предполагаемые даты поездки,  и мы п.svg"  alt="Заинтересовались? Укажите даты"> <br>
     </section>   
     <!-- здесь будет форма --> 
+    <form action="https://echo.htmlacademy.ru" method="post">
+    <fieldset>
+      <p>
+      <label for="arrival-date">Дата заезда:</label>
+      <input type="text" name="arrival-date" id="arrival-date" placeholder="24 апреля 2017" required>
+      
+    </p>
+    <p>
+      <label for="departure-date">Дата выезда:</label>
+      <input type="text" name="departure-date" id="departure-date" placeholder="4 июля 2017" required>
+      
+    </p>
+    <p>
+      <label for="adult">Взрослые:</label>
+      <input type="range" name="adult" id="adult" min="1" max="10" step="1">
+      <output name="adult">2</output>
+      </p>
+    <p>
+      <label for="children">Дети:</label>
+      <input type="range" name="children" id="children" min="0" max="10" step="1">
+      <output name="children">0</output>
+      </p>
+      <button type="submit">Найти</button>
+    </fieldset>
+    </form>
    
     <img src="img/Layer 35 copy.svg"  alt="Форма"> <br>
     <img src="img/Rectangle date.png"  alt="дата заезда"> <img src="img/svg-sedona/calendar.svg"  alt="открыть календарь"> <br>
