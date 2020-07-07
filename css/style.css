@@ -1,4 +1,4 @@
-/* Variables */
+
 
 :root {
     --basic-black: #000000;
@@ -25,70 +25,33 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 21px;
-    color: var(--basic-extra-black);
+    color: #333333;
     text-transform: uppercase;
-    background-color: var(--basic-extra-grey);
+    background-color:#000000;
     background-image: url("../img/background\ photo\ \(1\).jpg");
     background-position: top center;
     background-repeat: no-repeat;
   }
 
-  a {
-    text-decoration: none;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .main-navigation {
-    font-size: 14px;
-    line-height: 26px;
-    color: var(--basic-black);
-    background-color: transparent;
-  }
-  
-  .main-navigation-wrapper {
-    background-color: var(--basic-white);
-
-  }
   .site-navigation {
-  list-style: none;
-}
+    position: absolute;
+    width: 1200px;
+    height: 70px;
+    left: 40px;
+    top: 0px;
+    color: #ffffff;
 
-.site-navigation-current a:not([href]) {
-    background-color: var(--basic-white);
-  }
-  
-  /* User navigation */
-  
-  
-  .site-navigation a,
-  .user-navigation a {
-    color: var(--basic-white);
-  }
-  
-  .site-navigation a:hover,
-  .site-navigation a:focus,
-  .user-navigation a:hover,
-  .user-navigation a:focus {
-    background-color: var(--basic-white);
   }
 
-  /* Features */
+  .main-header-logo {
+    position: absolute;
+    width: 138px;
+    height: 70px;
+    left: 571px;
+    top: 0px;
 
-.features-list {
-    list-style: none;
-  }
-  
-  .feature-item {
-    text-align: center;
-  }
-  
-  .feature-item-upper {
-    font-size: 21px;
-    line-height: 21px;
   }
 
-  
+
+
+ 
