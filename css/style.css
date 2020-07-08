@@ -16,28 +16,28 @@
     --basic-extra-light:#EBEBEB;
   }
 
-  body {
-    min-width: 1300px;;
-    margin:0;
-    padding: 0;
-    font-family: "PT Sans", Arial, sans-serif;
+  .feature-body {
+    min-width: 1260px;
+    margin: 0;
+    padding: 40;
+    font-family: "PT Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 21px;
     color: #333333;
     text-transform: uppercase;
-    background-color:#000000;
-    background-image: url("../img/background\ photo\ \(1\).jpg");
+    background-color:#EBEBEB;
     background-position: top center;
-    background-repeat: no-repeat;
+    background: url(img/background photo (1).jpg);
+    
   }
 
   .site-navigation {
     position: absolute;
-    width: 1200px;
+    width: 100%;
     height: 70px;
-    left: 40px;
+    left: 0px;
     top: 0px;
     color: #ffffff;
 
@@ -47,10 +47,92 @@
     position: absolute;
     width: 138px;
     height: 70px;
-    left: 571px;
+    left: 45%;
     top: 0px;
 
   }
+
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .back-foto {
+    position: absolute;
+    left: 10px;
+    width: 1200px;
+    height: 509px;
+    top: 50px;
+    
+
+  }
+
+  .main-navigation {
+    font-size: 14px;
+    line-height: 26px;
+    color: var(--basic-black);
+    background-color: transparent;
+  }
+  
+  .main-navigation-wrapper {
+    background-color: var(--basic-white);
+
+  }
+  .site-navigation {
+  list-style: none;
+}
+
+.site-navigation-current a:not([href]) {
+    background-color: var(--basic-white);
+  }
+  
+  /* User navigation */
+  
+  
+  .site-navigation a,
+  .user-navigation a {
+    color: var(--basic-white);
+  }
+  
+  .site-navigation a:hover,
+  .site-navigation a:focus,
+  .user-navigation a:hover,
+  .user-navigation a:focus {
+    background-color: var(--basic-white);
+  }
+
+  /* Features */
+
+.features-list {
+    list-style: none;
+  }
+  
+  .feature-item {
+    text-align: center;
+  }
+  
+  .feature-item-upper {
+    font-size: 21px;
+    line-height: 21px;
+  }
+
+  .index-columns {
+    color: var(--basic-white);
+    background-color: var(--basic-extra-grey);
+    background-image: url("../img/Rectangle.png");
+    background-position: center, 0 0;
+    background-repeat: no-repeat, repeat;
+  }
+  
+  .index-columns h2 {
+    font-size: 30px;
+    line-height: 42px;
+  }
+
 
 
 
